@@ -9,7 +9,7 @@ on:
 jobs: 
 #pipelines
   print:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
 
     steps:
      - name: print-to-screen
