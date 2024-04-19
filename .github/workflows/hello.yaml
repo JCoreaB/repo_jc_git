@@ -6,10 +6,11 @@ on:
     branches: ["main"]
 
 
-jobs: #pipelines
+jobs: 
+#pipelines
   print:
     runs-on: ubuntu-latest
 
     steps:
-     - name: print-on-screen
-      run: echo "Hello World!!"
+     - name: print-to-screen
+       run: echo "Hello World!!"
