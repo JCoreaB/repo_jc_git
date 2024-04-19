@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 env:
-  REGISTRY: cachac
+  REGISTRY: juancorea
   IMAGE_NAME: kubelabs_publicapi
   OPS_BRACH: main
   OPS_REPO: JCoreaB/ops
