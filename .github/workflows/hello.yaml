@@ -19,3 +19,10 @@ jobs:
        run: echo "Hello World ${{ env.TEXT}}"
      - name: pint-secret
        run: echo "secret value ${{ secrets.SECRET_NAME }}"
+     - name: The job has succeded?
+       if: ${{ success() }}
+       run: echo "Job Succeded!!!"
+
+     - name: The job has failed?
+       if: ${{ failre() }}
+       run: echo "Job fails :("
