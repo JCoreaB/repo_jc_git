@@ -2,7 +2,7 @@ name: STAGE
 
 on:
   push:
-    branches: ["main"]
+    branches: ["stage"]
 
 env:
   REGISTRY: juancorea
