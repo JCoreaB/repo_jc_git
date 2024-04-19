@@ -11,6 +11,5 @@ jobs: #pipelines
     runs-on: ubuntu-latest
 
     steps:
-      name: print-on-screen
+     - name: print-on-screen
       run: echo "Hello World!!"
-      
