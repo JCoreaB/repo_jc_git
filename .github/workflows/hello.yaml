@@ -7,7 +7,7 @@ on:
 
 env:
   TEXT: "Juan Corea Badilla"
-
+  
 
 jobs: 
 #pipelines
@@ -17,3 +17,5 @@ jobs:
     steps:
      - name: print-to-screen
        run: echo "Hello World ${{ env.TEXT}}"
+     - name: pint-secret
+       run: echo "secret value: ${{ secret.SECRET_NAME}}"
