@@ -21,6 +21,7 @@ jobs:
        run: echo "secret value ${{ secrets.SECRET_NAME }}"
      - name: The job has succeded?
        if: ${{ success() }}
+       run: return 1
        run: echo "Job Succeded!!!"
 
      - name: The job has failed?
