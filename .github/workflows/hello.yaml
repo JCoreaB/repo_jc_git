@@ -18,4 +18,4 @@ jobs:
      - name: print-to-screen
        run: echo "Hello World ${{ env.TEXT}}"
      - name: pint-secret
-       run: echo "secret value: ${{ secrets.SECRET_NAME }}"
+       run: echo "secret value ${{ secrets.SECRET_NAME }}"
